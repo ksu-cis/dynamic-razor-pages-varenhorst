@@ -40,13 +40,12 @@ ul.movie-list > li
     color:slategray;
 }
 
-.imdb,.rotten
-{
-    color:gray;
-    border:1px solid gray;
-    width:60px;
-    text-align:center;
-    font-size:1.2rem;
+.imdb, .rotten-tomatoes {
+    color: gray;
+    border: 1px solid gray;
+    width: 60px;
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 .imdb::before
@@ -56,11 +55,10 @@ ul.movie-list > li
     font-size:1rem;
 }
 
-.rotten::before 
-{
-    content: "Rotten";  
-    display: block;
-    font-size: 1rem;
+.rotten-tomatoes::before {
+        content: "Rotten";
+        display: block;
+        font-size: 1rem;
 }
 
 form#movie-database {
